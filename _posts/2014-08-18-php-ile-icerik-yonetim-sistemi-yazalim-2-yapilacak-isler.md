@@ -1,0 +1,12 @@
+---
+ID: 675
+post_title: 'PHP ile içerik yönetim sistemi yazalım &#8211; 2 &#8211; Yapılacak işler'
+author: Midori Kocak
+post_excerpt: ""
+layout: post
+permalink: >
+  https://www.meraklibilisimci.com/php-ile-icerik-yonetim-sistemi-yazalim-2-yapilacak-isler/
+published: true
+post_date: 2014-08-18 13:14:57
+---
+<p><a href="https://meraklibilisimci.com/wp-content/uploads/2018/10/imgres.jpg"><img class="alignnone size-full wp-image-674" src="http://meraklibilisimci.com/wp-content/uploads/2018/10/imgres.jpg" alt="imgres" width="225" height="225" /></a></p><p>PHP ile içerik yönetim sistemi yazmaya azimliyiz. Temel SQL bilgimizle veritabanını modellemeyi de öğrendik. Ara yazı olarak öncelikle neler yapmamız gerektiğini planlamalıyız. Aslında bu adımlar genel olarak yazacağınız 'personel yönetim sistemi', 'müşteri ilişkileri yönetimi' gibi yazılımlarda da aynı. Şimdi baştan itibaren attığımız ve atacağımız adımları inceleyelim ve planlayalım:</p><ol><li>Mantıksal modelleme, yani sistemi ne için kullanacağız. Bunlara karar verdik, bir önceki yazıda hallettik.</li><li>Veritabanı modelleme, bunu da MySQL workbench programını nasıl kullanacağımızı öğrenerek hallettik.</li><li>PHP sınıflarını oluşturma. Yani kullandığımız mantığı, yazılımsal temele oturtma. Bundan lütfen korkmayın. Spaghetti öğretmiyorum çünkü insanlar bu adımı öğrenmiyorlar ve bir sürü anlamsız kod çöpleri ile boğuşuyorlar. Buna alıştığınızda inanın neden OOP yani nesne yönelimili programlama diye ısrar ettiğimizi anlayacaksınız. Kendinize yapacağınız en yararlı yatırım olacak. İlk adımda sınıfları taslak olarak oluşturacağız. Her nesnenin, özellik ve metodlarına karar vereceğiz.</li><li>Nesneleri bitireceğiz, veritabanı kodlarını kullanacağız. PDO ve ezSQL kütüphanelerini inceleyecek ve paketimize dahil edeceğiz.</li><li>Yönlendirme, yani routing yapacağız, gelen linklerin nereye gideceğine karar vereceğiz. Dışarıdan gelen ziyaretçiler için görüntüleme sayfalarını bu adımda HTML ile oluşturacağız.</li><li>Admin paneli hazırlayacağız. Bunun için yönetici şifresi, parolası kullanarak oturum açacağız. burada yönetim işlemlerini yapacağız.</li></ol><p>Bu adımlar gözünüze zor gelmesin, her birini tek tek bebek adımlarıyla halledeceğiz. Fazla derinlerde kaybolmadan. Meraklı kalın.</p><p> </p>
