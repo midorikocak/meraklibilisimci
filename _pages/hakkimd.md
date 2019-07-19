@@ -16,8 +16,8 @@ Bunun için neler yapıyorum?
 <ul>
  	<li>Blog yazıları yazıyorum. <a href="http://www.meraklibilisimci.com">Burda</a> ve <a href="http://www.mtkocak.net">mtkocak.net</a>'te.</li>
  	<li>Eğitimler veriyorum. <a href="http://www.twitter.com/kodlamag">Kodlama Gönüllüleri</a> ile birlikte.</li>
- 	<li>Açık kaynaklı yazılımlar yapıyorum ve o yazılımlara katkı sağlıyorum. <a href="https://github.com/mtkocak">Burdan buyrun.</a></li>
- 	<li>Şirketler için projeler hazırlıyorum. <a href="http://www.github.com/mtkocak/resume">Özgeçmişim için tıklayın.</a></li>
+ 	<li>Açık kaynaklı yazılımlar yapıyorum ve o yazılımlara katkı sağlıyorum. <a href="https://github.com/midorikocak">Burdan buyrun.</a></li>
+ 	<li>Şirketler için projeler hazırlıyorum. <a href="http://represent.io/mtkocak">Özgeçmişim için tıklayın.</a></li>
 </ul>
 Bana ulaşmak isterseniz:
 <ul>
