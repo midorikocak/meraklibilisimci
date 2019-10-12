@@ -5,7 +5,7 @@ author: Midori Kocak
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.meraklibilisimci.com/veritabani-nedir-sqle-giris-1/
+  http://www.meraklibilisimci.com/veritabani-nedir-sqle-giris-1/
 published: true
 post_date: 2014-07-14 20:25:52
 ---
@@ -13,7 +13,7 @@ post_date: 2014-07-14 20:25:52
 
 Veritabanı nedir?
 
-<a href="https://meraklibilisimci.com/wp-content/uploads/2018/10/148624.jpg"><img class="alignnone size-full wp-image-628" src="http://meraklibilisimci.com/wp-content/uploads/2018/10/148624.jpg" alt="148624" width="474" height="265" /></a>
+<a href="https://meraklibilisimci.com/wp-content/uploads/2018/10/148624.jpg"><img class="alignnone size-full wp-image-628" src="http://meraklibilisimci.com/wp-content/uploads/2019/10/148624.jpg" alt="148624" width="474" height="265" /></a>
 
 Gelin size mutlu sonla biten bir masal anlatayım. Eski hesap defterlerini hatırlar mısınız? Bunlardan en ünlüsü bakkal defteridir. Bakkal olduğumuzu düşünelim. Hangi bilgilere ihtiyacımız var? Müşterinin adı, telefonu, aldığı gofret, kola, gibi ürünler, şu anki borcu lazım. Üst satıra, bu bilgileri yazarız. Alt satırlara da müşterilerin kendi bilgilerini gireriz. Bilirsiniz değil mi? Defter kabolursa ne olur? Yanarız. Zaman geçti, bakkal defterlerinin yerini bilgisayarlar aldı. Hiç excel kullandınız mı? Bilgiler defterlerdeki gibi, satır ve sütunlarda yer alır, bunlar altalta yan yana toplanır. Bir çok işletme excel kullandı ve işlerini ilerletti. Fakat yeri geldi, bilgisayardaki binlerce ayrı ayrı excel dosyalarını yönetmek zorlaştı. Kimisi kayboldu, kimisini de kullanmak zordu. Binlerce satır veri arasından arama yapmak kolay değildi. Bu yüzden veritabanı adlı programlar geliştirildi. Belirli kurallara göre kolayca bilgiyi kaydeden, kolayca aramayı ve güncellemeyi sağlayan programlardı bunlar. Tabii herkes veritabanı kullanmayı bilmiyordu ve öğrenmesi de gerekmiyordu. Bu yüzden yazılımcılar, yani bizler, bu veritabanlarına bağlanacak, kolay bir arayüz olacak yazılımları geliştirdik. Bu sayede birçok insan bilgisayarları kullanır oldu. Kolayca bilgilerini bilgisayara yüklediler, ve ona kolayca eriştiler. PHP, MySQL, HTML5 ve Javascript sayesinde bu yazılımlar internete, yani “buluta” taşındılar, heryerden erişilebilir oldular ve güvenilir bir şekilde saklandılar. İnsanlar da yazılımcılar sayesinde sonsuza dek mutlu yaşadılar.
 
@@ -42,12 +42,14 @@ Genellikle yazılımlarımda kullandığım veritabanı MySQL. Açık kaynaklı,
 Basit bir şekilde akıl yürütelim. Hedefimiz içerik yönetim sistemi yazmak ve elimizde kayıt etmek istediğimiz bilgiler var. Bu bilgileri;
 
 &nbsp;
+
 <ol>
-	<li>Kayıt edeceğiz (CREATE)</li>
-	<li>İhtiyaç duyduğumuzda geri getireceğiz (READ)</li>
-	<li>Değişiklik olduğunda güncelleyeceğiz (UPDATE)</li>
-	<li>Sileceğiz (DELETE)</li>
+    <li>Kayıt edeceğiz (CREATE)</li>
+    <li>İhtiyaç duyduğumuzda geri getireceğiz (READ)</li>
+    <li>Değişiklik olduğunda güncelleyeceğiz (UPDATE)</li>
+    <li>Sileceğiz (DELETE)</li>
 </ol>
+
 &nbsp;
 
 Tüm bu işlemlere kısaca Oluştur (Create), Oku (Read), Güncelle (Update), Sil (Delete) kelimelerinin ingilizce baş harflerinden oluşan CRUD işlemleri denir. Genellikle yazılımlar bu işlemleri yapmaya yararlar.
@@ -61,12 +63,14 @@ Peki bu işlemleri nasıl yapacağız? SQL adı verilen, birçok yazılım için
 Başlıca SQL komutları, ingilizce kelimelerden oluşur. Biz ihtiyacımız olacak olan başlıcalarını listeleyelim. Daha sonra bu komutların nasıl kullanılacağını göreceğiz ve örneklerle destekleyeceğiz.
 
 &nbsp;
+
 <ol>
-	<li>SELECT: SQL komutlarının en önemlisi, Türkçe:“Seç” anlamına gelir ve kaydedilmiş bilgiyi veritabanından okumaya yarar.</li>
-	<li>INSERT: “Ekle” demektir. Veritabanına bilgi eklememize yarar</li>
-	<li>UPDATE: “Güncelle” demektir. Veritabanında varolan bilgiyi güncellememize yarar.</li>
-	<li>DELETE: “Sil” demektir. Veritabanında varolan kaydı silmemize yarar.</li>
+    <li>SELECT: SQL komutlarının en önemlisi, Türkçe:“Seç” anlamına gelir ve kaydedilmiş bilgiyi veritabanından okumaya yarar.</li>
+    <li>INSERT: “Ekle” demektir. Veritabanına bilgi eklememize yarar</li>
+    <li>UPDATE: “Güncelle” demektir. Veritabanında varolan bilgiyi güncellememize yarar.</li>
+    <li>DELETE: “Sil” demektir. Veritabanında varolan kaydı silmemize yarar.</li>
 </ol>
+
 &nbsp;
 
 Veritabanı yazılımında verilerimizi veritabanı adlı dosyalarda tuttuğumuzu belirtmiştik. Excel kullandıysanız bilirsiniz, farklı bilgileri farklı farklı excel dosyalarında tutarız. Bir excel dosyasında satır ve sütünlardan oluşan tablolar vardır. Veritabanları da bu excel dosyalarına benzer. İçlerinde farklı farklı tablolar vardır. Tablolar, satır ve sütunlardan oluşur. Excel'de ilk sütuna bilgilerin isimlerini yazarız. Excele geçen modern bir bakkal olduğumuzu düşünelim tablomuz şu şekilde olacak:
@@ -88,21 +92,25 @@ Baştaki amacımızdan sapmayalım. Hedefimiz, içerik yönetim sistemi yazmak. 
 SQL sorgulama dili ile tüm bunları oluşturumamız için ihtiyaç duyduğumuz komutları da çok az ve çok kolay.
 
 &nbsp;
+
 <ol>
-	<li>CREATE: “Yarat” anlamına geliyor. Akıl yürütürsek, veritabanı ve tablo yaratırken ihtiyaç duyacağımız komut budur.</li>
-	<li>ALTER: “Değiştir” anlamına gelir. Yarattığımız bi yapı üzerinde değişiklik yapmak istediğimizde bu komutu kullanacağız.</li>
-	<li>DROP: “Yoket” anlamaına geliyor. Yapıları yoketmek, istediğimizde bunu kullanırız.</li>
-	<li>TRUNCATE: “Boşalt” anlamına geliyor. Yapıları boşaltmak isterske bu komuta ihtiyacımız var.</li>
+    <li>CREATE: “Yarat” anlamına geliyor. Akıl yürütürsek, veritabanı ve tablo yaratırken ihtiyaç duyacağımız komut budur.</li>
+    <li>ALTER: “Değiştir” anlamına gelir. Yarattığımız bi yapı üzerinde değişiklik yapmak istediğimizde bu komutu kullanacağız.</li>
+    <li>DROP: “Yoket” anlamaına geliyor. Yapıları yoketmek, istediğimizde bunu kullanırız.</li>
+    <li>TRUNCATE: “Boşalt” anlamına geliyor. Yapıları boşaltmak isterske bu komuta ihtiyacımız var.</li>
 </ol>
+
 &nbsp;
 
 Hedefimiz, içerik yönetim sistemi yani blog yazmak. Bunun için atmamız gereken ilk adım herşeyi ilk olarak aklımızda, mantıksal olarak modellemek, yapıları aklımızda kurmak, soru sormak, akıl yürütmek. İçerik yönetim sistemi için nelere ihtiyacımız var?
 
 &nbsp;
+
 <ol>
-	<li>Yazı: Yazının yazıldığı tarihi bilmemiz gerekir ki, zaman göre sıralayalım, içeriği, kim tarafından yazıldığı, konusu</li>
-	<li>Resim ya da herhangi bir dosya, dosyanın bilgisayarda tutulduğu adres.</li>
+    <li>Yazı: Yazının yazıldığı tarihi bilmemiz gerekir ki, zaman göre sıralayalım, içeriği, kim tarafından yazıldığı, konusu</li>
+    <li>Resim ya da herhangi bir dosya, dosyanın bilgisayarda tutulduğu adres.</li>
 </ol>
+
 <a href="https://meraklibilisimci.com/wp-content/uploads/2018/10/phpmyadmin-1351692685.png"><img class="alignnone size-full wp-image-624" src="http://meraklibilisimci.com/wp-content/uploads/2018/10/phpmyadmin-1351692685.png" alt="phpmyadmin-1351692685" width="474" height="335" /></a>
 
 En basit içerik yönetim sistemimiz için gerekli olan bilgiler bunlar. Birazdan bunları tek tek komutlarını sisteme gireceğiz. Ama önce MySQL programını ve PhpMyAdmin yazılımlarını yüklememiz gerekiyor ki, biz daha önce Xampp sunucusunu kurduğumuzda bu yazılımlar da sistemimize otomatik olarak yüklenmişti. Xampp'ı kurmadıysak kuralım. Kurduysak internet taraycımızı açıp, adres satırına 127.0.0.1 veya <a href="http://locallhost/">http://locallhost</a> yazalım.
@@ -120,7 +128,9 @@ Bu işlemleri, tarayıcı yerine komut satırından MySQL programının kendisi 
 Devamı bir sonraki yazıda...
 
 Kaynaklar:
+
 <ol>
-	<li>http://en.wikipedia.org/wiki/Create,_read,_update_and_delete</li>
+    <li>http://en.wikipedia.org/wiki/Create,_read,_update_and_delete</li>
 </ol>
+
 &nbsp;
