@@ -75,7 +75,7 @@ En basit içerik yönetim sistemimiz için gerekli olan bilgiler bunlar. Birazda
 
 Bu işlemleri, tarayıcı yerine komut satırından MySQL programının kendisi ile de yapabiliriz. Ancak biz hızılca proje oluşturduğumuz için bu işleri phpMyAdmin'i kullanarak yapacağız.
 
-<img class="alignnone size-medium wp-image-1693" src="http://www.meraklibilisimci.com/wp-content/uploads/2014/07/image340-300x215.jpg" alt="" width="300" height="215" />
+<img class="alignnone wp-image-1693 size-full" src="http://www.meraklibilisimci.com/wp-content/uploads/2014/07/image340.jpg" alt="" width="865" height="621" />
 
 Devamı bir sonraki yazıda...
 
