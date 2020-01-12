@@ -9,8 +9,8 @@ permalink: >
 published: true
 post_date: 2020-01-12 22:08:01
 ---
-<!-- wp:image {"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://i.guim.co.uk/img/media/fb363e72bd9860ba108c0b91f6d948d18588ee75/0_1345_4724_3859/master/4724.jpg?width=1300&amp;quality=45&amp;auto=format&amp;fit=max&amp;dpr=2&amp;s=9d23f25d7fd7639f12ae651667c1d982" alt=""/><figcaption>Illustration: Phil Hackett/The Observer</figcaption></figure>
+<!-- wp:image {"id":1714,"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="http://www.meraklibilisimci.com/wp-content/uploads/2020/01/Screen-Shot-2020-01-12-at-23.09.39.png" alt="" class="wp-image-1714"/><figcaption>Illustration: Phil Hackett/The Observer</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
